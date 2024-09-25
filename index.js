@@ -1,11 +1,15 @@
 require('dotenv').config();
 const express = require('express');
+const { Sequelize } = require('sequelize');
 const cors = require('cors');
 const database = require('./conexao');
 const Usuarios = require('./models/usuarios');
 const FichaMedica = require('./models/fichaMedica');
 const Doenca = require('./models/doenca');
+<<<<<<< HEAD
 const Sequelize  = require('sequelize');
+=======
+>>>>>>> 048203549e18a52c1df59c9fe85bc853c375b194
 const twilio = require('twilio')
 
 const app = express();

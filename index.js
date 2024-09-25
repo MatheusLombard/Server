@@ -1,11 +1,11 @@
 require('dotenv').config();
 const express = require('express');
+const { Sequelize } = require('sequelize');
 const cors = require('cors');
 const database = require('./conexao');
 const Usuarios = require('./models/usuarios');
 const FichaMedica = require('./models/fichaMedica');
 const Doenca = require('./models/doenca');
-const Sequelize = require('sequelize');
 const twilio = require('twilio')
 
 const app = express();

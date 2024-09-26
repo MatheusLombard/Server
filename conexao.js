@@ -1,6 +1,6 @@
-const Sequelize = require('sequelize') 
-const sequelize = new Sequelize('emergenif0_37386836_emergencialSaudecialsaude', 'if0_37386836', 'Ma09souza', {
-    host: 'sql305.infinityfree.com',
+const Sequelize  = require('sequelize');
+const sequelize = new Sequelize('railway', 'root', 'gjIqJpRfMhxasbhwAiCZjSRcCQjrYNtV', {
+    host: 'mysql.railway.internal',
     dialect: 'mysql'
 }) 
 
